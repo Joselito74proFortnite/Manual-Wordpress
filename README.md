@@ -46,21 +46,21 @@ systemctl restart apache2
 
 ## MySQL
 
-**Consola MySQL
+### Consola MySQL
 
-En la terminal de forma root ponemos el siguiente comando:**
+**En la terminal de forma root ponemos el siguiente comando:**
 
 root@elpuig:~$ mysql
 
-**Creacion de la base de datos:
+### Creacion de la base de datos:
 
-Dentro de mysql cramos la base con nombre: bbdd**
+**Dentro de mysql cramos la base con nombre: bbdd**
 
 CREATE DATABASE bbdd;
 
-**Creacion del usuario
+### Creacion del usuario
 
-Tingueu en compte que s'haurà d'identificar la IP des de la qual s'accedirà a la base de dades, en aquest cas, localhost.**
+**Tingueu en compte que s'haurà d'identificar la IP des de la qual s'accedirà a la base de dades, en aquest cas, localhost.**
 
 CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
