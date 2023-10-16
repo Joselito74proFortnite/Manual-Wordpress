@@ -68,7 +68,7 @@ CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 GRANT ALL ON bbdd.* to 'usuario'@'localhost';
 
-***Salir de bbdd:****
+***Salir de bbdd:**
 
 exit
 
