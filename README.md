@@ -127,4 +127,5 @@ exit
 **Para hacer nuesta red publica tendremos que ir a vagrantfile y marcamos los siguentes comandos:**
 
 config.vm.network "forwarded_port", guest: 80, host: 8080
+
 config.vm.network "public_network"
